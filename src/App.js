@@ -4,8 +4,12 @@ import './App.css';
 
 
 console.log("test");
+console.log("d");
+console.log("gf");
+
 
 function App() {
+    debugger;
     return (
         <div className="App">
             <header className="App-header">
@@ -19,7 +23,8 @@ function App() {
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Learn Reactasdsssadasd
+                    Learn React
+                    asdsaaassdfdfdfadasdasdasd
                 </a>
             </header>
         </div>
