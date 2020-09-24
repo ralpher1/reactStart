@@ -15,7 +15,7 @@
 	//"forwardPorts": [3000],
 	//"appPort": ["3000" ],
 	//"appPort": [ 3000, "3000:5000" ],
-	//"appPort": [ "3000:4000" ], // WTF WHY WON THIS WTOK@!#!@!@!@!@@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@
+	"appPort": [ "4200:3000" ], // WTF WHY WON THIS WTOK@!#!@!@!@!@@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@!@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"dbaeumer.vscode-eslint",
