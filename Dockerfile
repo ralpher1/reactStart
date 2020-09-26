@@ -9,8 +9,9 @@ RUN apt-get install -y npm
 RUN npm install
 #CMD [ "npm", "start" ]
 RUN npm run build
-CMD npm install -g serve
-ENTRYPOINT serve -l 3000 -s build
+RUN npm install -g serve
+CMD serve -l 3000 -s build
+#ENTRYPOINT serve -l 3000 -s build
 
 
 
