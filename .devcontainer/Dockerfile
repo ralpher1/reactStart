@@ -9,7 +9,7 @@ COPY . .
 RUN touch test1.txt
 RUN apt-get update
 RUN apt-get install -y npm
-RUN npm install
+CMD npm install
 # EXPOSE 3000
 
 # [Optional] Uncomment this section to install additional OS packages.
