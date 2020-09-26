@@ -5,7 +5,7 @@ ARG VARIANT="14-buster"
 FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
 RUN echo "Dev dockerfile"
 WORKDIR ../
-RUN npm start
+RUN npm install
 # EXPOSE 3000
 
 # [Optional] Uncomment this section to install additional OS packages.
