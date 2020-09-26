@@ -10,7 +10,7 @@ RUN npm install
 #CMD [ "npm", "start" ]
 RUN npm run build
 CMD npm install serve -g
-ENTRYPOINT ["serve -l 3000 -s build"]
+ENTRYPOINT serve -l 3000 -s build
 
 
 
