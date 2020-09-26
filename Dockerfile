@@ -7,5 +7,7 @@ RUN touch test1.txt
 RUN apt-get update -y
 RUN apt-get install -y npm
 RUN npm install
-CMD [ "npm", "start" ]
+#CMD [ "npm", "start" ]
+ENTRYPOINT ["npm", "start"]
+
 
