@@ -6,7 +6,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
 RUN echo "Dev dockerfile"
 WORKDIR ../
 RUN apt-get update
-RUN apt-get install npm
+RUN apt-get install -y npm
 RUN npm install
 # EXPOSE 3000
 
