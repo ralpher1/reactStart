@@ -8,6 +8,7 @@ RUN apt-get update -y
 RUN apt-get install -y npm
 RUN npm install
 #CMD [ "npm", "start" ]
+RUN npm run build
 RUN npm install -g serve
 ENTRYPOINT ["serve -s build"]
 
