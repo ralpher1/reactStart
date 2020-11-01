@@ -1,15 +1,9 @@
 {
-<<<<<<< HEAD
-  "name": "testreact",
-  "version": "0.1.0",
-  "private": true,
-=======
   "name": "reactstart",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
->>>>>>> eede90db83f346a309a3ace6aff5c82035da9285
-  "dependencies": {
+  "homepage":"http://ubuntu.sitesrepo.com:8080/hello-springboot",
+    "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -18,12 +12,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-<<<<<<< HEAD
-    "start": "react-scripts --inspect start",
-=======
     "start": "react-scripts start",
-    "startDebug": "react-scripts --inspect start",
->>>>>>> eede90db83f346a309a3ace6aff5c82035da9285
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
