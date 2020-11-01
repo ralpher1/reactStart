@@ -5,6 +5,10 @@ ARG VARIANT="3.12"
 FROM mcr.microsoft.com/vscode/devcontainers/base:0-alpine-${VARIANT}
 RUN apk update
 RUN apk add npm
+RUN apk add yarn
+WORKDIR /workspaces/testreact
+COPY . .
+RUN npm install
 
 # ** [Optional] Uncomment this section to install additional packages. **
 # RUN apk update \
